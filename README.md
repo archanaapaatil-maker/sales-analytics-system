@@ -1,4 +1,6 @@
 Sales Analytics System - Module 3 Assignment
+Name: Archana summet Patil
+Studentcode: bitsom_ba_25071469
 
  Overview
 This repository contains my Python-based Sales Analytics System, developed as part of Module 3 Assignment.  
