@@ -23,24 +23,22 @@ Report Generation
   Creates a formatted text report (`output/sales_report.txt) with all required sections.
 
 
- Project Structure
-sales-analytics-system/
-│
-├── README.md                                # Project documentation
-├── main.py                                    # Main workflow script
-├── utils/                   # Helper modules
-│   ├── file_handler.py      # File I/O and preprocessing
-│   ├── data_processor.py    # Sales analysis functions
-│   └── api_handler.py       # API integration functions
-├── data/
-│   └── sales_data.txt       #Provided dataset
-├── output/
-│   └── sales_report.txt     # Generated report
-└── requirements.txt                  
+  Project Structure
 
+- README.md → Project documentation  
+- main.py → Main workflow script  
+- utils → Helper modules  
+  - file_handler.py → File I/O and preprocessing  
+  - data_processor.py → Sales analysis functions  
+  - api_handler.py → API integration functions  
+- data  
+  - sales_data.txt → Provided dataset  
+- output 
+  - sales_report.txt → Generated report  
+- requirements.txt → Dependencies (requests library)
+               
 
-
- How to Run
+How to Run
 Clone the repository:
 
    git clone https://github.com/archanaapaatil-maker/sales-analytics-system.git
